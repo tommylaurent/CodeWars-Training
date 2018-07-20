@@ -8,6 +8,7 @@
 //! L'utilisation de reduce peut être bien pour comparer deux tableaux et savoir combien d'élements sont identiques
 //! Penser à tout mettre en lowercase, plutôt que faire de versions à comparer
 //! Penser à filter si je ne veux garder que quelques elements
+//! let unique = [...new Set(myArray)]; permet de supprimer les doublons
 
 /******************************************************************************************/
 //* EXERCICE
