@@ -6,7 +6,7 @@
 //! charCodeAt() peut être bien à utiliser quand on se sert des lettres de l'alphabet
 //! Il est possible de trouver l'index à partir d'un .map
 //! L'utilisation de reduce peut être bien pour comparer deux tableaux et savoir combien d'élements sont identiques
-//! Penser à tout mettre en lowercase, plutôt que faire de versions à comparer
+//! Penser à tout mettre en lowercase, plutôt que faire deux versions à comparer
 //! Penser à filter si je ne veux garder que quelques elements
 //! let unique = [...new Set(myArray)]; permet de supprimer les doublons
 
