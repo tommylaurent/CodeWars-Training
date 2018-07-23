@@ -46,3 +46,25 @@ Gift List: [13, 2, 4, 6, 1]
 Should return 4.
 
 NOTE: All numbers will be integers >= 0, and the array will never be empty.
+
+**https://www.codewars.com/kata/5a84d485742ba347b90006b7**
+
+---
+
+#6kyu_Count_the_smiley_faces
+
+Given an array (arr) as an argument complete the function countSmileys that should return the total number of smiling faces.
+
+Rules for a smiling face:
+-Each smiley face must contain a valid pair of eyes. Eyes can be marked as : or ;
+-A smiley face can have a nose but it does not have to. Valid characters for a nose are - or ~
+-Every smiling face must have a smiling mouth that should be marked with either ) or D.
+No additional characters are allowed except for those mentioned.
+Valid smiley face examples:
+:) :D ;-D :~)
+Invalid smiley faces:
+;( :> :} :]
+
+**https://www.codewars.com/kata/583203e6eb35d7980400002a**
+
+---
