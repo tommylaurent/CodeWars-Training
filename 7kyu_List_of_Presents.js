@@ -9,11 +9,13 @@
 /******************************************************************************************/
 
 function howManyGifts(maxBudget, gifts) {
-  //   console.log(maxBudget);
-  //   console.log(gifts);
   const budgetTrie = gifts.sort((a, b) => a - b);
-  console.log(budgetTrie);
+  let somme = 0;
+  const budgetMax = budgetTrie
+    .map(elt => (somme = somme + elt))
+    .filter(elt => elt <= maxBudget).length;
+  return budgetMax;
 }
 
-test = howManyGifts(20, [13, 2, 4, 6, 1]);
+const test = howManyGifts(20, [13, 2, 4, 6, 1]);
 console.log(test);
