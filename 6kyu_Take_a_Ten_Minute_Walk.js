@@ -7,4 +7,4 @@ function isValidWalk(walk) {
 }
 
 const test = ["n", "s", "n", "s", "n", "s", "n", "s", "n", "s"];
-console.log(test);
+console.log(test3);
