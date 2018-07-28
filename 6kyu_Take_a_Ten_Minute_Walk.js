@@ -17,7 +17,10 @@ function isValidWalk(walk) {
   //   (s, v, i) => s + (v.charCodeAt() == i + 97),
   //   0
   // );
-  return resultat ? ;
+  resultatFilter = resultat.filter(elt => elt !== null);
+
+  return resultatFilter.map(elt => elt.length);
+
   //.reduce((a, c) => a + c);
   //   const walk
   // return walkDirection;
