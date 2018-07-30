@@ -76,3 +76,18 @@ You live in the city of Cartesia where all roads are laid out in a perfect grid.
 Note: you will always receive a valid array containing a random assortment of direction letters ('n', 's', 'e', or 'w' only). It will never give you an empty array (that's not a walk, that's standing still!).
 
 **https://www.codewars.com/kata/take-a-ten-minute-walk/javascript**
+
+---
+
+#7kyu_reverseAndMirror
+
+Given 2 string parameters, show a concatenation of:
+
+the reverse of the 2nd string with inverted case; e.g Fish -> HSIf
+a separator in between both strings: @@@
+the 1st string reversed with inverted case and then mirrored; e.g Water -> RETAwwATER
+Keep in mind that this kata was initially designed for Shell, I'm aware it may be easier in other languages.
+
+**https://www.codewars.com/kata/string-reversing-changing-case-etc/train/javascript**
+
+---
